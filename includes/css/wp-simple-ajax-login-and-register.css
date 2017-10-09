@@ -1,0 +1,162 @@
+.wp_simple_ajax_login_and_register_overlay{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.5);
+	display: none;
+	cursor: default;
+	z-index: 9999;
+	transform: translateZ(1px);
+}
+
+#mytheme_login,
+#mytheme_register,
+#mytheme_forgotten_pass {
+	background-color: #FFFFFF;
+	display: none;
+	width: 440px;
+	top: 50%;
+	position: fixed;
+	margin-top: -168px;
+	left: 50%;
+	margin-left: -220px;
+	padding: 20px;
+	border-radius: 0;
+	text-align: center;
+	cursor: default;
+	z-index: 99999;
+}
+
+#mytheme_register{
+	margin-top: -207px;
+	z-index: 998;
+}
+
+#mytheme_login.hide{
+	display: none;
+}
+
+#mytheme_register.show{
+	z-index: 99999;
+	display: block;
+}
+
+#mytheme_forgotten_pass.show{
+	z-index: 999999;
+	display: block;
+}
+
+#mytheme_login input,
+#mytheme_register input,
+#mytheme_forgotten_pass input{
+	margin: 0 auto;
+	margin-bottom: 20px;
+	width: 100%;
+	display: block;
+}
+
+/*checkbox - start*/
+#mytheme_register label[for='terms']{
+    display: block;
+    position: relative;
+    padding-left: 40px;
+    margin: 10px 0 20px 0;
+    font-size: 15px;
+    text-align: left;
+}
+
+#mytheme_register label[for='terms']:before{
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 17px;
+    width: 17px;
+    border: 1px solid #232323;
+}
+
+#mytheme_register label[for='terms']:after{
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    width: 5px;
+    height: 8px;
+    border: solid #222222;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    display: none;
+}
+
+#mytheme_register input[type='checkbox']{
+    position: absolute;
+   	margin-bottom: 0;
+    z-index: -1;
+    opacity: 0;
+}
+
+#mytheme_register input[type='checkbox']:checked ~ label[for='terms']:after{
+    display: block;
+}
+/*checkbox - end*/
+
+#mytheme_login input[type='submit'],
+#mytheme_register input[type='submit'],
+#mytheme_forgotten_pass input[type='submit']{
+	margin-top: 20px;
+}
+
+#mytheme_register #terms{
+	display: inline-block;
+	width: auto;
+}
+
+.wp_simple_ajax_login_and_register .login_overlay{
+	height: 100%;
+	width: 100%;
+	background-color: #F6F6F6;
+	opacity: 0.9;
+	position: fixed;
+	z-index: 998;
+}
+
+.wp_simple_ajax_login_and_register .login_button{
+	display: inline-block;
+	color:  #0c0f0b;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 30px;
+	-webkit-transition: all 180ms ease-in;
+	-moz-transition: all 180ms ease-in;
+	-o-transition: all 180ms ease-in;
+	transition: all 180ms ease-in;
+}
+
+.wp_simple_ajax_login_and_register .error_message{
+	padding: 0 20px 5px;
+	margin: -12px 0 6px;
+	font-size: 12px;
+	color: #d84949;
+}
+
+#mytheme_login .forgotten_box .mytheme_register{
+	display: block;
+}
+
+@media only screen and (max-width: 480px) {
+
+	#mytheme_login,
+	#mytheme_register,
+	#mytheme_forgotten_pass{
+		width: 94%;
+		margin-left: -47%;
+	}
+
+	#mytheme_register{
+		margin-top: -220px;
+	}
+
+}

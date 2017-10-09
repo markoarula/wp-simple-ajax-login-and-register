@@ -1,0 +1,214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mytheme Simple Ajax Login and Register\n"
+"POT-Creation-Date: 2017-02-15 12:22+0100\n"
+"PO-Revision-Date: 2017-02-15 12:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: AB Themes\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:82
+msgid "User created. Activate via email"
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:83
+msgid "Reset password mail sent"
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:84
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:190
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:191
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:192
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:193
+msgid "Logout"
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:85
+msgid "Sending user info, please wait..."
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:100
+msgid "User login"
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:102
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:114
+msgid "Username"
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:103
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:116
+msgid "Password"
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:104
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:201
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:202
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:203
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:204
+#: includes/class-wp-simple-ajax-login-and-register-menu.php:82
+#: includes/class-wp-simple-ajax-login-and-register-menu.php:85
+#: includes/class-wp-simple-ajax-login-and-register-menu.php:86
+msgid "Login"
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:106
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:133
+msgid "Not registered? Click here."
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:107
+msgid "Lost your password?"
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:112
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:119
+msgid "Register"
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:115
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:129
+msgid "Email"
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:118
+msgid "I've read and accept the "
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:118
+msgid "terms &amp; conditions"
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:121
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:132
+msgid "Already registered? Log in."
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:126
+msgid "Lost password"
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:127
+msgid ""
+"Please enter your email address. You will receive a link to create a new "
+"password via email."
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:130
+msgid "Get new password"
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:157
+msgid "AJAX Login Settings"
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:169
+msgid "Terms of Use page"
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-admin.php:170
+msgid "Choose the page for Terms of Use."
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-menu.php:62
+msgid "Add Login Menu Item"
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-menu.php:95
+msgid "Select All"
+msgstr ""
+
+#: includes/class-wp-simple-ajax-login-and-register-menu.php:98
+msgid "Add to Menu"
+msgstr ""
+
+#: wp-simple-ajax-login-and-register.php:88
+msgid "Please enter a username; #username"
+msgstr ""
+
+#: wp-simple-ajax-login-and-register.php:92
+msgid "Username doesn't exist; #username"
+msgstr ""
+
+#: wp-simple-ajax-login-and-register.php:96
+msgid "User isn't activated; #username"
+msgstr ""
+
+#: wp-simple-ajax-login-and-register.php:100
+msgid "Please enter a password; #password"
+msgstr ""
+
+#: wp-simple-ajax-login-and-register.php:104
+msgid "Please enter a correct password; #password"
+msgstr ""
+
+#: wp-simple-ajax-login-and-register.php:141
+msgid "Username already taken; #user_login"
+msgstr ""
+
+#: wp-simple-ajax-login-and-register.php:145
+msgid "Invalid username; #user_login"
+msgstr ""
+
+#: wp-simple-ajax-login-and-register.php:149
+msgid "Please enter a username; #user_login"
+msgstr ""
+
+#: wp-simple-ajax-login-and-register.php:153
+msgid "Invalid email; #user_email"
+msgstr ""
+
+#: wp-simple-ajax-login-and-register.php:157
+msgid "Email already registered; #user_email"
+msgstr ""
+
+#: wp-simple-ajax-login-and-register.php:161
+msgid "Please accept the terms and conditions; #terms"
+msgstr ""
+
+#: wp-simple-ajax-login-and-register.php:165
+msgid "Please enter a password; #account_password"
+msgstr ""
+
+#: wp-simple-ajax-login-and-register.php:204
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr ""
+
+#: wp-simple-ajax-login-and-register.php:207
+#, php-format
+msgid ""
+" Dear %1$s,<br /><br />Thank you for registering to %2$s.<br /><br />In "
+"order to activate your account, you'll need to <a href=\"%3$s\">confirm your "
+"email</a>.<br /><br />Cheers!"
+msgstr ""
+
+#: wp-simple-ajax-login-and-register.php:240
+msgid "Invalid email; #user_forgotten_email"
+msgstr ""
+
+#: wp-simple-ajax-login-and-register.php:244
+msgid "Email doesn't exist; #user_forgotten_email"
+msgstr ""
+
+#: wp-simple-ajax-login-and-register.php:278
+msgid "Password reset"
+msgstr ""
+
+#: wp-simple-ajax-login-and-register.php:281
+#, php-format
+msgid ""
+"Someone used your email to reset your password on %1$s. If this was not you "
+"you can contact the administrators on the site or disregard this mail. If "
+"this was you, then you can click <a href=\"%2$s\">this link</a> to generate "
+"a new password for $1%s"
+msgstr ""
